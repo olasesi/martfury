@@ -1,0 +1,202 @@
+.ps-rtl {
+  direction: rtl;
+}
+
+.ps-rtl .ps-product__content {
+  text-align: right;
+}
+
+.ps-rtl .ps-product__content .ps-product__title {
+  text-align: right;
+}
+
+.ps-rtl .ps-product__content .ps-product__vendor {
+  text-align: right !important;
+}
+
+.ps-rtl .ps-product__content .ps-product__rating {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.ps-rtl .ps-product--search-result .ps-product__content {
+  text-align: right;
+}
+
+.ps-rtl .ps-block--site-features .ps-block__right {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.ps-rtl .ps-block--site-features .ps-block__item:first-child {
+  border-right: 0;
+}
+
+.ps-rtl .ps-block--download-app .ps-block__content {
+  padding-right: 30px !important;
+  text-align: right;
+}
+
+.ps-rtl .ps-block--download-app input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ps-rtl .ps-block--download-app button {
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+.ps-rtl .ps-block--shop-features .ps-carousel__next i:before {
+  content: "\e93b" !important;
+}
+
+.ps-rtl .ps-block--shop-features .ps-carousel__prev i:before {
+  content: "\e93c" !important;
+}
+
+.ps-rtl .ps-deal-of-day .ps-section__header .ps-block--countdown-deal h3 {
+  margin-right: 0;
+  margin-left: 70px;
+  text-align: right;
+}
+
+.ps-rtl .ps-deal-of-day .ps-section__header .ps-block--countdown-deal figure figcaption {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.ps-rtl .ps-layout--shop .ps-layout__left {
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.ps-rtl .ps-layout--shop .ps-shopping__view {
+  padding-left: 0;
+}
+
+.ps-rtl .ps-about-intro, .ps-rtl .ps-about-awards {
+  text-align: right;
+}
+
+.ps-rtl #homepage-1 .ps-home-banner .owl-rtl .owl-next i:before {
+  content: "\e93b" !important;
+}
+
+.ps-rtl #homepage-1 .ps-home-banner .owl-rtl .owl-prev i:before {
+  content: "\e93c" !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .ps-rtl #homepage-1 .ps-home-banner .ps-section__left {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+
+.ps-rtl #homepage-6 .ps-home-banner .owl-rtl .owl-next i:before {
+  content: "\e93b" !important;
+}
+
+.ps-rtl #homepage-6 .ps-home-banner .owl-rtl .owl-prev i:before {
+  content: "\e93c" !important;
+}
+
+.ps-rtl .ps-form--newsletter {
+  text-align: right;
+}
+
+.ps-rtl .ps-form--newsletter input {
+  border-left: 0;
+  border-right: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
+
+.ps-rtl .ps-form--newsletter button {
+  border-radius: 4px 0 0 4px;
+}
+
+.ps-rtl .menu > li a {
+  text-align: right;
+}
+
+.ps-rtl .menu > li.menu-item-has-children {
+  position: relative;
+}
+
+.ps-rtl .menu > li.menu-item-has-children .sub-menu {
+  left: auto;
+  right: 0;
+}
+
+.ps-rtl .menu > li.has-mega-menu .mega-menu {
+  left: auto;
+  right: 0;
+}
+
+.ps-rtl .mega-menu .mega-menu__column h4 {
+  text-align: right;
+}
+
+.ps-rtl .header .menu--product-categories .menu__toggle i {
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.ps-rtl .header .menu--product-categories .menu--dropdown li > a {
+  text-align: right;
+}
+
+.ps-rtl .header .menu--product-categories .menu--dropdown > li.menu-item-has-children .mega-menu {
+  left: auto;
+  right: 100%;
+}
+
+.ps-rtl .header .ps-form--quick-search button {
+  border-radius: 4px 0 0 4px;
+}
+
+.ps-rtl .header .ps-form--quick-search .form-group--icon i {
+  right: auto;
+  left: 10px;
+}
+
+.ps-rtl .header .ps-form--quick-search .form-group--icon select {
+  border-left: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.ps-rtl .header .header__actions .ps-block--user-header {
+  text-align: right;
+}
+
+.ps-rtl .header .header__actions .ps-block--user-header .ps-block__right {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .ps-rtl .header .header__top .ps-container {
+    display: grid;
+    grid-template-columns: 300px 1fr 400px;
+  }
+}
+
+.ps-rtl .header--market-place-2 .menu--product-categories .menu__toggle i, .ps-rtl .header--market-place-4 .menu--product-categories .menu__toggle i {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+.ps-rtl .ps-footer .ps-footer__links {
+  text-align: right;
+}
+
+.ps-rtl .ps-footer .ps-footer__links a:after {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=rtl.css.map */

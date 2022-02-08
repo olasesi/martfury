@@ -1,0 +1,17 @@
+.header .header__top {
+    background-color: #4d4ae6;
+}
+
+.navigation {
+    background-color: #bd1313;
+}
+
+.ps-form--quick-search button,
+.header .header__extra span {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.ps-block--site-features .ps-block__left i {
+    color: #fc0000;
+}
